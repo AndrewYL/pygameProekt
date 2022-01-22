@@ -79,7 +79,7 @@ def start_screen():
 
 
 def death_screen():
-    intro_text = ["Ты попался на ловушку!", "", 'ИГРА ОКОНЧЕНА']
+    intro_text = ["Ты попался на ловушку!", "Будь осторожней в следующий раз", '', 'ИГРА ОКОНЧЕНА']
 
     fon = pygame.transform.scale(load_image('death_fon1.png'), (WIDTH, HEIGHT))
     screen.blit(fon, (0, 0))
