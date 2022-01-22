@@ -246,9 +246,6 @@ def move(hero, movement):
                 end_screen()
 
 
-# основной персонаж
-# player = None
-
 # группы спрайтов
 sprite_group = pygame.sprite.Group()
 hero_group = pygame.sprite.Group()
